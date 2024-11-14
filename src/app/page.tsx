@@ -1,7 +1,10 @@
-import { Button } from "@/components/ui/button";
+import FormLogin from "../components/main/FormLogin";
 
 export default function Home() {
   return (
-    <Button className=" active:scale-95 transition transform ease-in-out duration-200">Hello</Button>
+    <div className=" p-4 max-w-5xl mx-auto space-y-4">
+      <h1 className="text-3xl font-bold mt-4">Hello</h1>
+      <FormLogin />
+    </div>
   );
 }
